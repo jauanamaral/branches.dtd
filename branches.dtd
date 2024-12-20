@@ -1,0 +1,9 @@
+<!ELEMENT branches (branch+)>
+
+<!ELEMENT branch (name, address, phone, hours)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT hours (opening, closing)>
+<!ELEMENT opening (#PCDATA)>
+<!ELEMENT closing (#PCDATA)>
